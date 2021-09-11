@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Credit card Department" verbose="1">
+	<test name="Credit card">
+		<!-- <packages> <package name="tests.creditCards" /> </packages> -->
+		<packages>
+			<package name="tests.enabled" />
+		</packages>
+		<!-- <classes> <class name="tests.creditCards.CreditCard_MASTER"></class> 
+			</classes> -->
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

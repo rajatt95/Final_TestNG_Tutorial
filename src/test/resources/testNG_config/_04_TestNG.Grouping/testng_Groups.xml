@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Credit card Department">
+
+	<test name="Credit card">
+		<groups>
+			<run>
+				<!-- <include name="Smoke"></include> -->
+				<!-- <include name="Sanity"></include> -->
+				<!-- <include name="Functional"></include> -->
+				<exclude name="Functional"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="_04_TestNG.Grouping.CreditCard_MASTER"></class>
+			<class name="_04_TestNG.Grouping.CreditCard_VISA"></class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+

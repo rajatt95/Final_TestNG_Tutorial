@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<test name="Personal Loan">
+		<classes>
+			<class name="tests.Personal_Loan">
+				<methods>
+					<!-- Method starting from : TC_Mobile.* (inside Package - 'tests') -->
+					<include name="TC_Mobile.*"></include>	<!-- TC_MobileLogin TC_WebLogin -->
+					<include name="TC_Web.*"></include>	
+				</methods>
+			</class> 
+		</classes>
+	</test>
+</suite> <!-- Suite -->

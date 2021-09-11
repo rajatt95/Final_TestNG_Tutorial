@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="customListener_reRunFailedtests Suite">
+	<listeners>
+		<listener
+			class-name="_41_2_TestNG_Listeners.IRetryAnalyzer_Re_RunFailed_Tests.RetryListner"></listener>
+
+	</listeners>
+	<test name="CustomListener_reRunFailedtest Test">
+		<classes>
+			<class
+				name="_41_2_TestNG_Listeners.IRetryAnalyzer_Re_RunFailed_Tests.TestCases" />
+		</classes>
+	</test>
+</suite> 
